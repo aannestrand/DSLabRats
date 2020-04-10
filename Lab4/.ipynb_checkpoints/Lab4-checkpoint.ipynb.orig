@@ -236,13 +236,18 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 1,
+=======
+   "execution_count": 27,
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
    "metadata": {},
    "outputs": [],
    "source": [
     "from sklearn.datasets import fetch_openml\n",
     "import matplotlib.pyplot as plt\n",
     "import numpy as np\n",
+<<<<<<< HEAD
     "from sklearn.ensemble import RandomForestClassifier\n",
     "from sklearn.ensemble import GradientBoostingClassifier\n",
     "from sklearn.model_selection import RandomizedSearchCV\n",
@@ -250,12 +255,18 @@
     "from sklearn.model_selection import RandomizedSearchCV\n",
     "from pprint import pprint\n",
     "\n",
+=======
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
     "%matplotlib inline"
    ]
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 2,
+=======
+   "execution_count": 9,
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
    "metadata": {},
    "outputs": [
     {
@@ -279,7 +290,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 3,
+=======
+   "execution_count": 10,
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
    "metadata": {},
    "outputs": [
     {
@@ -303,12 +318,36 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 4,
    "metadata": {},
    "outputs": [],
    "source": [
     "X_data = mnist_raw['data']\n",
     "Y_target = mnist_raw['target']"
+=======
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[[0. 0. 0. ... 0. 0. 0.]\n",
+      " [0. 0. 0. ... 0. 0. 0.]\n",
+      " [0. 0. 0. ... 0. 0. 0.]\n",
+      " ...\n",
+      " [0. 0. 0. ... 0. 0. 0.]\n",
+      " [0. 0. 0. ... 0. 0. 0.]\n",
+      " [0. 0. 0. ... 0. 0. 0.]] ['5' '0' '4' ... '4' '5' '6']\n"
+     ]
+    }
+   ],
+   "source": [
+    "X_data = mnist_raw['data']\n",
+    "Y_target = mnist_raw['target']\n",
+    "print(data, target)"
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
    ]
   },
   {
@@ -327,7 +366,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 5,
+=======
+   "execution_count": 47,
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
    "metadata": {},
    "outputs": [
     {
@@ -336,7 +379,11 @@
        "4"
       ]
      },
+<<<<<<< HEAD
      "execution_count": 5,
+=======
+     "execution_count": 47,
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -348,7 +395,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 6,
+=======
+   "execution_count": 41,
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
    "metadata": {},
    "outputs": [
     {
@@ -392,7 +443,11 @@
   },
   {
    "cell_type": "code",
+<<<<<<< HEAD
    "execution_count": 7,
+=======
+   "execution_count": 49,
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
    "metadata": {},
    "outputs": [
     {
@@ -425,15 +480,9 @@
    ]
   },
   {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "### Part 1"
-   ]
-  },
-  {
    "cell_type": "code",
-   "execution_count": 31,
+<<<<<<< HEAD
+   "execution_count": 8,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -457,7 +506,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 32,
+   "execution_count": 9,
    "metadata": {},
    "outputs": [
     {
@@ -473,7 +522,7 @@
        "                       warm_start=False)"
       ]
      },
-     "execution_count": 32,
+     "execution_count": 9,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -620,7 +669,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 29,
+   "execution_count": 72,
    "metadata": {},
    "outputs": [
     {
@@ -663,7 +712,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 30,
+   "execution_count": 73,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -769,7 +818,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 25,
+   "execution_count": 10,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -784,7 +833,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 26,
+   "execution_count": 11,
    "metadata": {},
    "outputs": [
     {
@@ -800,7 +849,7 @@
        "                       verbose=0, warm_start=False)"
       ]
      },
-     "execution_count": 26,
+     "execution_count": 11,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -818,27 +867,28 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 33,
+   "execution_count": 12,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Improvement of 0.47%.\n"
+      "Improvement of 0.39%.\n"
      ]
     }
    ],
    "source": [
     "#Compare accuracy of tuned model vs base\n",
-    "random_score = rfc_new.score(X_test, y_test)\n",
+    "best_random_model = rfc_new\n",
+    "random_score = best_random_model.score(X_test, y_test)\n",
     "base_score = rfc_model.score(X_test, y_test)\n",
     "print('Improvement of {:0.2f}%.'.format( 100 * (random_score - base_score) / base_score))"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 34,
+   "execution_count": 13,
    "metadata": {},
    "outputs": [
     {
@@ -846,7 +896,7 @@
      "output_type": "stream",
      "text": [
       "Tuned Score:\n",
-      "0.9751\n"
+      "0.9743\n"
      ]
     }
    ],
@@ -857,7 +907,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 35,
+   "execution_count": 14,
    "metadata": {},
    "outputs": [
     {
@@ -887,13 +937,12 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "### Part 2\n",
     "Now we will try Gradient Boosting to do the same thing: Get a base model, tune hyperparameters, compare tuned vs. base, compare best vs. RFC, compare best vs. logistic"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 16,
+   "execution_count": 25,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -925,7 +974,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 17,
+   "execution_count": 18,
    "metadata": {},
    "outputs": [
     {
@@ -943,7 +992,7 @@
        "              verbosity=None)"
       ]
      },
-     "execution_count": 17,
+     "execution_count": 18,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -954,7 +1003,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 18,
+   "execution_count": 20,
    "metadata": {},
    "outputs": [
     {
@@ -963,7 +1012,7 @@
        "0.9795"
       ]
      },
-     "execution_count": 18,
+     "execution_count": 20,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -1002,7 +1051,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -1017,196 +1066,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Fitting 2 folds for each of 20 candidates, totalling 40 fits\n",
-      "[CV] colsample_bytree=0.9252155845351104, gamma=1.5601864044243652, learning_rate=0.11239780813448107, max_depth=13, min_child_weight=30.73980825409684, n_estimators=38, reg_alpha=7.708098373328053, subsample=0.9937572296628479 \n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "[Parallel(n_jobs=1)]: Using backend SequentialBackend with 1 concurrent workers.\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[CV]  colsample_bytree=0.9252155845351104, gamma=1.5601864044243652, learning_rate=0.11239780813448107, max_depth=13, min_child_weight=30.73980825409684, n_estimators=38, reg_alpha=7.708098373328053, subsample=0.9937572296628479, total= 6.8min\n",
-      "[CV] colsample_bytree=0.9252155845351104, gamma=1.5601864044243652, learning_rate=0.11239780813448107, max_depth=13, min_child_weight=30.73980825409684, n_estimators=38, reg_alpha=7.708098373328053, subsample=0.9937572296628479 \n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "[Parallel(n_jobs=1)]: Done   1 out of   1 | elapsed:  6.8min remaining:    0.0s\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[CV]  colsample_bytree=0.9252155845351104, gamma=1.5601864044243652, learning_rate=0.11239780813448107, max_depth=13, min_child_weight=30.73980825409684, n_estimators=38, reg_alpha=7.708098373328053, subsample=0.9937572296628479, total= 2.0min\n",
-      "[CV] colsample_bytree=0.681939791143364, gamma=6.1748150962771655, learning_rate=0.29466126419531236, max_depth=27, min_child_weight=17.211149627697075, n_estimators=30, reg_alpha=182.01497768138802, subsample=0.9906270827741552 \n",
-      "[CV]  colsample_bytree=0.681939791143364, gamma=6.1748150962771655, learning_rate=0.29466126419531236, max_depth=27, min_child_weight=17.211149627697075, n_estimators=30, reg_alpha=182.01497768138802, subsample=0.9906270827741552, total= 1.2min\n",
-      "[CV] colsample_bytree=0.681939791143364, gamma=6.1748150962771655, learning_rate=0.29466126419531236, max_depth=27, min_child_weight=17.211149627697075, n_estimators=30, reg_alpha=182.01497768138802, subsample=0.9906270827741552 \n",
-      "[CV]  colsample_bytree=0.681939791143364, gamma=6.1748150962771655, learning_rate=0.29466126419531236, max_depth=27, min_child_weight=17.211149627697075, n_estimators=30, reg_alpha=182.01497768138802, subsample=0.9906270827741552, total= 1.2min\n",
-      "[CV] colsample_bytree=0.9016525236942432, gamma=8.599404067363206, learning_rate=0.3221230154351119, max_depth=11, min_child_weight=3.363196543965212, n_estimators=6, reg_alpha=142.53984394678014, subsample=0.9686996824842291 \n",
-      "[CV]  colsample_bytree=0.9016525236942432, gamma=8.599404067363206, learning_rate=0.3221230154351119, max_depth=11, min_child_weight=3.363196543965212, n_estimators=6, reg_alpha=142.53984394678014, subsample=0.9686996824842291, total=  24.4s\n",
-      "[CV] colsample_bytree=0.9016525236942432, gamma=8.599404067363206, learning_rate=0.3221230154351119, max_depth=11, min_child_weight=3.363196543965212, n_estimators=6, reg_alpha=142.53984394678014, subsample=0.9686996824842291 \n",
-      "[CV]  colsample_bytree=0.9016525236942432, gamma=8.599404067363206, learning_rate=0.3221230154351119, max_depth=11, min_child_weight=3.363196543965212, n_estimators=6, reg_alpha=142.53984394678014, subsample=0.9686996824842291, total=  24.6s\n",
-      "[CV] colsample_bytree=0.8728775345487935, gamma=1.7336465350777208, learning_rate=0.20642424302929635, max_depth=6, min_child_weight=18.677329082881183, n_estimators=8, reg_alpha=11.65601159428085, subsample=0.9952254582702151 \n",
-      "[CV]  colsample_bytree=0.8728775345487935, gamma=1.7336465350777208, learning_rate=0.20642424302929635, max_depth=6, min_child_weight=18.677329082881183, n_estimators=8, reg_alpha=11.65601159428085, subsample=0.9952254582702151, total=  20.8s\n",
-      "[CV] colsample_bytree=0.8728775345487935, gamma=1.7336465350777208, learning_rate=0.20642424302929635, max_depth=6, min_child_weight=18.677329082881183, n_estimators=8, reg_alpha=11.65601159428085, subsample=0.9952254582702151 \n",
-      "[CV]  colsample_bytree=0.8728775345487935, gamma=1.7336465350777208, learning_rate=0.20642424302929635, max_depth=6, min_child_weight=18.677329082881183, n_estimators=8, reg_alpha=11.65601159428085, subsample=0.9952254582702151, total=  20.9s\n",
-      "[CV] colsample_bytree=0.777487224464793, gamma=7.272719958564209, learning_rate=0.18061630752233415, max_depth=16, min_child_weight=10.906734731563372, n_estimators=23, reg_alpha=24.60651458971093, subsample=0.8873659886074203 \n",
-      "[CV]  colsample_bytree=0.777487224464793, gamma=7.272719958564209, learning_rate=0.18061630752233415, max_depth=16, min_child_weight=10.906734731563372, n_estimators=23, reg_alpha=24.60651458971093, subsample=0.8873659886074203, total= 1.2min\n",
-      "[CV] colsample_bytree=0.777487224464793, gamma=7.272719958564209, learning_rate=0.18061630752233415, max_depth=16, min_child_weight=10.906734731563372, n_estimators=23, reg_alpha=24.60651458971093, subsample=0.8873659886074203 \n",
-      "[CV]  colsample_bytree=0.777487224464793, gamma=7.272719958564209, learning_rate=0.18061630752233415, max_depth=16, min_child_weight=10.906734731563372, n_estimators=23, reg_alpha=24.60651458971093, subsample=0.8873659886074203, total= 1.2min\n",
-      "[CV] colsample_bytree=0.9755279023629253, gamma=8.021969807540398, learning_rate=0.07982025747190834, max_depth=9, min_child_weight=27.53045308884588, n_estimators=3, reg_alpha=11.076972025294298, subsample=0.809461138083018 \n",
-      "[CV]  colsample_bytree=0.9755279023629253, gamma=8.021969807540398, learning_rate=0.07982025747190834, max_depth=9, min_child_weight=27.53045308884588, n_estimators=3, reg_alpha=11.076972025294298, subsample=0.809461138083018, total=  11.6s\n",
-      "[CV] colsample_bytree=0.9755279023629253, gamma=8.021969807540398, learning_rate=0.07982025747190834, max_depth=9, min_child_weight=27.53045308884588, n_estimators=3, reg_alpha=11.076972025294298, subsample=0.809461138083018 \n",
-      "[CV]  colsample_bytree=0.9755279023629253, gamma=8.021969807540398, learning_rate=0.07982025747190834, max_depth=9, min_child_weight=27.53045308884588, n_estimators=3, reg_alpha=11.076972025294298, subsample=0.809461138083018, total=  11.3s\n",
-      "[CV] colsample_bytree=0.9942230023599755, gamma=3.5846572854427263, learning_rate=0.0963476238100519, max_depth=9, min_child_weight=94.8688601614506, n_estimators=14, reg_alpha=20.09094006256505, subsample=0.9718522760822342 \n",
-      "[CV]  colsample_bytree=0.9942230023599755, gamma=3.5846572854427263, learning_rate=0.0963476238100519, max_depth=9, min_child_weight=94.8688601614506, n_estimators=14, reg_alpha=20.09094006256505, subsample=0.9718522760822342, total=  38.1s\n",
-      "[CV] colsample_bytree=0.9942230023599755, gamma=3.5846572854427263, learning_rate=0.0963476238100519, max_depth=9, min_child_weight=94.8688601614506, n_estimators=14, reg_alpha=20.09094006256505, subsample=0.9718522760822342 \n",
-      "[CV]  colsample_bytree=0.9942230023599755, gamma=3.5846572854427263, learning_rate=0.0963476238100519, max_depth=9, min_child_weight=94.8688601614506, n_estimators=14, reg_alpha=20.09094006256505, subsample=0.9718522760822342, total=  38.7s\n",
-      "[CV] colsample_bytree=0.8636115932647235, gamma=4.722149251619493, learning_rate=0.09783769837532069, max_depth=16, min_child_weight=94.49524523650217, n_estimators=7, reg_alpha=41.19437474429144, subsample=0.9128850732864123 \n",
-      "[CV]  colsample_bytree=0.8636115932647235, gamma=4.722149251619493, learning_rate=0.09783769837532069, max_depth=16, min_child_weight=94.49524523650217, n_estimators=7, reg_alpha=41.19437474429144, subsample=0.9128850732864123, total=  18.5s\n",
-      "[CV] colsample_bytree=0.8636115932647235, gamma=4.722149251619493, learning_rate=0.09783769837532069, max_depth=16, min_child_weight=94.49524523650217, n_estimators=7, reg_alpha=41.19437474429144, subsample=0.9128850732864123 \n",
-      "[CV]  colsample_bytree=0.8636115932647235, gamma=4.722149251619493, learning_rate=0.09783769837532069, max_depth=16, min_child_weight=94.49524523650217, n_estimators=7, reg_alpha=41.19437474429144, subsample=0.9128850732864123, total=  17.7s\n",
-      "[CV] colsample_bytree=0.9692206821226456, gamma=0.3142918568673425, learning_rate=0.30456416450551216, max_depth=34, min_child_weight=59.456851110666285, n_estimators=39, reg_alpha=14.336941149164916, subsample=0.898377733005299 \n",
-      "[CV]  colsample_bytree=0.9692206821226456, gamma=0.3142918568673425, learning_rate=0.30456416450551216, max_depth=34, min_child_weight=59.456851110666285, n_estimators=39, reg_alpha=14.336941149164916, subsample=0.898377733005299, total= 1.6min\n",
-      "[CV] colsample_bytree=0.9692206821226456, gamma=0.3142918568673425, learning_rate=0.30456416450551216, max_depth=34, min_child_weight=59.456851110666285, n_estimators=39, reg_alpha=14.336941149164916, subsample=0.898377733005299 \n",
-      "[CV]  colsample_bytree=0.9692206821226456, gamma=0.3142918568673425, learning_rate=0.30456416450551216, max_depth=34, min_child_weight=59.456851110666285, n_estimators=39, reg_alpha=14.336941149164916, subsample=0.898377733005299, total= 1.7min\n",
-      "[CV] colsample_bytree=0.8168821862783325, gamma=6.334037565104235, learning_rate=0.3985842360750871, max_depth=30, min_child_weight=12.323195802577699, n_estimators=22, reg_alpha=111.54067026177805, subsample=0.8325253553053832 \n",
-      "[CV]  colsample_bytree=0.8168821862783325, gamma=6.334037565104235, learning_rate=0.3985842360750871, max_depth=30, min_child_weight=12.323195802577699, n_estimators=22, reg_alpha=111.54067026177805, subsample=0.8325253553053832, total= 1.1min\n",
-      "[CV] colsample_bytree=0.8168821862783325, gamma=6.334037565104235, learning_rate=0.3985842360750871, max_depth=30, min_child_weight=12.323195802577699, n_estimators=22, reg_alpha=111.54067026177805, subsample=0.8325253553053832 \n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[CV]  colsample_bytree=0.8168821862783325, gamma=6.334037565104235, learning_rate=0.3985842360750871, max_depth=30, min_child_weight=12.323195802577699, n_estimators=22, reg_alpha=111.54067026177805, subsample=0.8325253553053832, total= 1.1min\n",
-      "[CV] colsample_bytree=0.9712419150915043, gamma=4.271077886262563, learning_rate=0.37720590636899726, max_depth=5, min_child_weight=0.34882045908253234, n_estimators=10, reg_alpha=38.18807751704673, subsample=0.9099479985045033 \n",
-      "[CV]  colsample_bytree=0.9712419150915043, gamma=4.271077886262563, learning_rate=0.37720590636899726, max_depth=5, min_child_weight=0.34882045908253234, n_estimators=10, reg_alpha=38.18807751704673, subsample=0.9099479985045033, total=  24.7s\n",
-      "[CV] colsample_bytree=0.9712419150915043, gamma=4.271077886262563, learning_rate=0.37720590636899726, max_depth=5, min_child_weight=0.34882045908253234, n_estimators=10, reg_alpha=38.18807751704673, subsample=0.9099479985045033 \n",
-      "[CV]  colsample_bytree=0.9712419150915043, gamma=4.271077886262563, learning_rate=0.37720590636899726, max_depth=5, min_child_weight=0.34882045908253234, n_estimators=10, reg_alpha=38.18807751704673, subsample=0.9099479985045033, total=  24.6s\n",
-      "[CV] colsample_bytree=0.966451867947173, gamma=5.581020020173412, learning_rate=0.21153446842321633, max_depth=14, min_child_weight=14.503064749610264, n_estimators=4, reg_alpha=62.28673944235778, subsample=0.5464854199446646 \n",
-      "[CV]  colsample_bytree=0.966451867947173, gamma=5.581020020173412, learning_rate=0.21153446842321633, max_depth=14, min_child_weight=14.503064749610264, n_estimators=4, reg_alpha=62.28673944235778, subsample=0.5464854199446646, total=  13.7s\n",
-      "[CV] colsample_bytree=0.966451867947173, gamma=5.581020020173412, learning_rate=0.21153446842321633, max_depth=14, min_child_weight=14.503064749610264, n_estimators=4, reg_alpha=62.28673944235778, subsample=0.5464854199446646 \n",
-      "[CV]  colsample_bytree=0.966451867947173, gamma=5.581020020173412, learning_rate=0.21153446842321633, max_depth=14, min_child_weight=14.503064749610264, n_estimators=4, reg_alpha=62.28673944235778, subsample=0.5464854199446646, total=  13.8s\n",
-      "[CV] colsample_bytree=0.8925500839956471, gamma=6.807054515547668, learning_rate=0.26237383332685454, max_depth=28, min_child_weight=212.20184913076298, n_estimators=34, reg_alpha=44.90986104263074, subsample=0.953237899714839 \n",
-      "[CV]  colsample_bytree=0.8925500839956471, gamma=6.807054515547668, learning_rate=0.26237383332685454, max_depth=28, min_child_weight=212.20184913076298, n_estimators=34, reg_alpha=44.90986104263074, subsample=0.953237899714839, total= 1.1min\n",
-      "[CV] colsample_bytree=0.8925500839956471, gamma=6.807054515547668, learning_rate=0.26237383332685454, max_depth=28, min_child_weight=212.20184913076298, n_estimators=34, reg_alpha=44.90986104263074, subsample=0.953237899714839 \n",
-      "[CV]  colsample_bytree=0.8925500839956471, gamma=6.807054515547668, learning_rate=0.26237383332685454, max_depth=28, min_child_weight=212.20184913076298, n_estimators=34, reg_alpha=44.90986104263074, subsample=0.953237899714839, total= 1.1min\n",
-      "[CV] colsample_bytree=0.747093280352113, gamma=3.9882444244455306, learning_rate=0.3765727492877536, max_depth=18, min_child_weight=90.18223971231485, n_estimators=8, reg_alpha=59.50559999737251, subsample=0.952251493220607 \n",
-      "[CV]  colsample_bytree=0.747093280352113, gamma=3.9882444244455306, learning_rate=0.3765727492877536, max_depth=18, min_child_weight=90.18223971231485, n_estimators=8, reg_alpha=59.50559999737251, subsample=0.952251493220607, total=  18.6s\n",
-      "[CV] colsample_bytree=0.747093280352113, gamma=3.9882444244455306, learning_rate=0.3765727492877536, max_depth=18, min_child_weight=90.18223971231485, n_estimators=8, reg_alpha=59.50559999737251, subsample=0.952251493220607 \n",
-      "[CV]  colsample_bytree=0.747093280352113, gamma=3.9882444244455306, learning_rate=0.3765727492877536, max_depth=18, min_child_weight=90.18223971231485, n_estimators=8, reg_alpha=59.50559999737251, subsample=0.952251493220607, total=  18.0s\n",
-      "[CV] colsample_bytree=0.965713632659158, gamma=0.9617655109142076, learning_rate=0.4262093057958416, max_depth=20, min_child_weight=90.91855366176486, n_estimators=13, reg_alpha=20.856621699758588, subsample=0.730215002586014 \n",
-      "[CV]  colsample_bytree=0.965713632659158, gamma=0.9617655109142076, learning_rate=0.4262093057958416, max_depth=20, min_child_weight=90.91855366176486, n_estimators=13, reg_alpha=20.856621699758588, subsample=0.730215002586014, total=  31.5s\n",
-      "[CV] colsample_bytree=0.965713632659158, gamma=0.9617655109142076, learning_rate=0.4262093057958416, max_depth=20, min_child_weight=90.91855366176486, n_estimators=13, reg_alpha=20.856621699758588, subsample=0.730215002586014 \n",
-      "[CV]  colsample_bytree=0.965713632659158, gamma=0.9617655109142076, learning_rate=0.4262093057958416, max_depth=20, min_child_weight=90.91855366176486, n_estimators=13, reg_alpha=20.856621699758588, subsample=0.730215002586014, total=  32.2s\n",
-      "[CV] colsample_bytree=0.8349833924899642, gamma=5.5520081159946235, learning_rate=0.2618602313424026, max_depth=4, min_child_weight=279.34932640625937, n_estimators=14, reg_alpha=40.85547697931888, subsample=0.9821412119610942 \n",
-      "[CV]  colsample_bytree=0.8349833924899642, gamma=5.5520081159946235, learning_rate=0.2618602313424026, max_depth=4, min_child_weight=279.34932640625937, n_estimators=14, reg_alpha=40.85547697931888, subsample=0.9821412119610942, total=  25.0s\n",
-      "[CV] colsample_bytree=0.8349833924899642, gamma=5.5520081159946235, learning_rate=0.2618602313424026, max_depth=4, min_child_weight=279.34932640625937, n_estimators=14, reg_alpha=40.85547697931888, subsample=0.9821412119610942 \n",
-      "[CV]  colsample_bytree=0.8349833924899642, gamma=5.5520081159946235, learning_rate=0.2618602313424026, max_depth=4, min_child_weight=279.34932640625937, n_estimators=14, reg_alpha=40.85547697931888, subsample=0.9821412119610942, total=  25.1s\n",
-      "[CV] colsample_bytree=0.8700259294978819, gamma=4.045081271221901, learning_rate=0.40510803950438395, max_depth=13, min_child_weight=137.15925910424536, n_estimators=38, reg_alpha=114.41152500887529, subsample=0.9986268536106073 \n",
-      "[CV]  colsample_bytree=0.8700259294978819, gamma=4.045081271221901, learning_rate=0.40510803950438395, max_depth=13, min_child_weight=137.15925910424536, n_estimators=38, reg_alpha=114.41152500887529, subsample=0.9986268536106073, total= 1.2min\n",
-      "[CV] colsample_bytree=0.8700259294978819, gamma=4.045081271221901, learning_rate=0.40510803950438395, max_depth=13, min_child_weight=137.15925910424536, n_estimators=38, reg_alpha=114.41152500887529, subsample=0.9986268536106073 \n",
-      "[CV]  colsample_bytree=0.8700259294978819, gamma=4.045081271221901, learning_rate=0.40510803950438395, max_depth=13, min_child_weight=137.15925910424536, n_estimators=38, reg_alpha=114.41152500887529, subsample=0.9986268536106073, total= 1.2min\n",
-      "[CV] colsample_bytree=0.9837401231719675, gamma=5.487337893665861, learning_rate=0.3267580790770773, max_depth=18, min_child_weight=259.76514352957037, n_estimators=38, reg_alpha=62.27086444492694, subsample=0.9508266748114431 \n",
-      "[CV]  colsample_bytree=0.9837401231719675, gamma=5.487337893665861, learning_rate=0.3267580790770773, max_depth=18, min_child_weight=259.76514352957037, n_estimators=38, reg_alpha=62.27086444492694, subsample=0.9508266748114431, total= 1.3min\n",
-      "[CV] colsample_bytree=0.9837401231719675, gamma=5.487337893665861, learning_rate=0.3267580790770773, max_depth=18, min_child_weight=259.76514352957037, n_estimators=38, reg_alpha=62.27086444492694, subsample=0.9508266748114431 \n",
-      "[CV]  colsample_bytree=0.9837401231719675, gamma=5.487337893665861, learning_rate=0.3267580790770773, max_depth=18, min_child_weight=259.76514352957037, n_estimators=38, reg_alpha=62.27086444492694, subsample=0.9508266748114431, total= 1.3min\n",
-      "[CV] colsample_bytree=0.9196270427281408, gamma=5.683086033354716, learning_rate=0.08746990713123699, max_depth=24, min_child_weight=15.408007392941558, n_estimators=32, reg_alpha=180.61547030814629, subsample=0.8642391331808185 \n",
-      "[CV]  colsample_bytree=0.9196270427281408, gamma=5.683086033354716, learning_rate=0.08746990713123699, max_depth=24, min_child_weight=15.408007392941558, n_estimators=32, reg_alpha=180.61547030814629, subsample=0.8642391331808185, total= 1.8min\n",
-      "[CV] colsample_bytree=0.9196270427281408, gamma=5.683086033354716, learning_rate=0.08746990713123699, max_depth=24, min_child_weight=15.408007392941558, n_estimators=32, reg_alpha=180.61547030814629, subsample=0.8642391331808185 \n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "[CV]  colsample_bytree=0.9196270427281408, gamma=5.683086033354716, learning_rate=0.08746990713123699, max_depth=24, min_child_weight=15.408007392941558, n_estimators=32, reg_alpha=180.61547030814629, subsample=0.8642391331808185, total= 1.8min\n",
-      "[CV] colsample_bytree=0.9418638777900282, gamma=4.925176938188639, learning_rate=0.1280971951192178, max_depth=21, min_child_weight=42.43209473424399, n_estimators=19, reg_alpha=260.61166994910684, subsample=0.9721308467038826 \n",
-      "[CV]  colsample_bytree=0.9418638777900282, gamma=4.925176938188639, learning_rate=0.1280971951192178, max_depth=21, min_child_weight=42.43209473424399, n_estimators=19, reg_alpha=260.61166994910684, subsample=0.9721308467038826, total=  52.7s\n",
-      "[CV] colsample_bytree=0.9418638777900282, gamma=4.925176938188639, learning_rate=0.1280971951192178, max_depth=21, min_child_weight=42.43209473424399, n_estimators=19, reg_alpha=260.61166994910684, subsample=0.9721308467038826 \n",
-      "[CV]  colsample_bytree=0.9418638777900282, gamma=4.925176938188639, learning_rate=0.1280971951192178, max_depth=21, min_child_weight=42.43209473424399, n_estimators=19, reg_alpha=260.61166994910684, subsample=0.9721308467038826, total=  54.9s\n"
-     ]
-    },
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "[Parallel(n_jobs=1)]: Done  40 out of  40 | elapsed: 39.3min finished\n"
-     ]
-    },
-    {
-     "data": {
-      "text/plain": [
-       "RandomizedSearchCV(cv=2, error_score=nan,\n",
-       "                   estimator=XGBClassifier(base_score=None, booster=None,\n",
-       "                                           colsample_bylevel=None,\n",
-       "                                           colsample_bynode=None,\n",
-       "                                           colsample_bytree=None, gamma=None,\n",
-       "                                           gpu_id=None, importance_type='gain',\n",
-       "                                           interaction_constraints=None,\n",
-       "                                           learning_rate=None,\n",
-       "                                           max_delta_step=None, max_depth=None,\n",
-       "                                           min_child_weight=None, missing=nan,\n",
-       "                                           monotone_constraints=None,\n",
-       "                                           n...\n",
-       "                                        'n_estimators': <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001F281841948>,\n",
-       "                                        'reg_alpha': <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001F2E2434248>,\n",
-       "                                        'subsample': <scipy.stats._distn_infrastructure.rv_frozen object at 0x000001F2E2434208>},\n",
-       "                   pre_dispatch='2*n_jobs', random_state=42, refit=True,\n",
-       "                   return_train_score=False, scoring=None, verbose=2)"
-      ]
-     },
-     "execution_count": 10,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
+   "outputs": [],
    "source": [
     "#find best one by fitting each random set of hp\n",
-    "gb_random.fit(X_train, y_train)"
+    "# gb_random.fit(X_train, y_train)"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+   "execution_count": null,
    "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "{'colsample_bytree': 0.9692206821226456,\n",
-       " 'gamma': 0.3142918568673425,\n",
-       " 'learning_rate': 0.30456416450551216,\n",
-       " 'max_depth': 34,\n",
-       " 'min_child_weight': 59.456851110666285,\n",
-       " 'n_estimators': 39,\n",
-       " 'reg_alpha': 14.336941149164916,\n",
-       " 'subsample': 0.898377733005299}"
-      ]
-     },
-     "execution_count": 11,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
+   "outputs": [],
    "source": [
     "#Return best parameters from RandomSearchCV\n",
     "gb_random.best_params_"
@@ -1214,123 +1086,40 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "gb_new = XGBClassifier(colsample_bytree= 0.9692206821226456,\n",
-    "         gamma = 0.3142918568673425,\n",
-    "         learning_rate= 0.30456416450551216,\n",
-    "         max_depth= 34,\n",
-    "         min_child_weight=59.456851110666285,\n",
-    "         n_estimators=39,\n",
-    "         reg_alpha=14.336941149164916,\n",
-    "         subsample= 0.898377733005299)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 13,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "XGBClassifier(base_score=0.5, booster=None, colsample_bylevel=1,\n",
-       "              colsample_bynode=1, colsample_bytree=0.9692206821226456,\n",
-       "              gamma=0.3142918568673425, gpu_id=-1, importance_type='gain',\n",
-       "              interaction_constraints=None, learning_rate=0.30456416450551216,\n",
-       "              max_delta_step=0, max_depth=34,\n",
-       "              min_child_weight=59.456851110666285, missing=nan,\n",
-       "              monotone_constraints=None, n_estimators=39, n_jobs=0,\n",
-       "              num_parallel_tree=1, objective='multi:softprob', random_state=0,\n",
-       "              reg_alpha=14.336941149164916, reg_lambda=1, scale_pos_weight=None,\n",
-       "              subsample=0.898377733005299, tree_method=None,\n",
-       "              validate_parameters=False, verbosity=None)"
-      ]
-     },
-     "execution_count": 13,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "gb_new.fit(X_train, y_train)"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 22,
-   "metadata": {},
-   "outputs": [
-    {
-     "data": {
-      "text/plain": [
-       "0.9596"
-      ]
-     },
-     "execution_count": 22,
-     "metadata": {},
-     "output_type": "execute_result"
-    }
-   ],
-   "source": [
-    "gb_random_score = gb_new.score(X_test, y_test)\n",
-    "gb_random_score"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 37,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Decrease of -2.03%.\n"
-     ]
-    }
-   ],
    "source": [
     "#Compare accuracy of tuned model vs base\n",
-    "gb_random_score = gb_new.score(X_test, y_test)\n",
-    "print('Decrease of {:0.2f}%.'.format( 100 * (gb_random_score - gb_base_score) / gb_base_score))"
+    "best_random_model_gb = gb_random.best_estimator_\n",
+    "gb_random_score = best_random_model_gb.score(X_test, y_test)\n",
+    "print('Improvement of {:0.2f}%.'.format( 100 * (gb_random_score - gb_base_score) / gb_base_score))"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 38,
-   "metadata": {},
-   "outputs": [
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Decrease of -1.59%.\n"
-     ]
-    }
-   ],
-   "source": [
-    "#Compre accuracy of tuned vs. tuned RFC\n",
-    "print('Decrease of {:0.2f}%.'.format( 100 * (gb_random_score - random_score) / random_score))"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "Based on the results, the tuned Gradient Boosting model performed worse than the baseline Gradient Boosting and the Random Forest (tuned). This is probably because RanddomSearchCV is not all-inclusive and could likely find combinations that are not accurate. Also, some hyperparameters like reg_alpha go outside of the recommended values for an XGB model."
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 39,
+   "execution_count": null,
    "metadata": {},
    "outputs": [],
    "source": [
-    "#Compare best model vs. logistic regression"
+    "#Compre accuracy of tuned vs. RFC\n",
+    "print('Improvement of {:0.2f}%.'.format( 100 * (gb_random_score - random_score) / random_score))"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#Compare accuracy of tuned vs. Logistic"
+   ]
+=======
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+>>>>>>> 4583d45dcd4b618f29f857aaf7209aee3f064452
   },
   {
    "cell_type": "markdown",
@@ -3518,6 +3307,20 @@
     "  train_CIFAR10(epoch)\n",
     "  test_CIFAR10()"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
